@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="w-full h-full">
+    <div class="w-1/2 m-auto bg-gray-300 my-10 px-2 py-5">
+        <form action="">
+            <div class="mb-2">
+                <label class="text-gray-600" for="name">Name :</label>
+                <input type="text" name="name" required placeholder="Enter Your Name" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="name">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="email">Email :</label>
+                <input type="email" name="email" required placeholder="Enter Your Email" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="email">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="phone">Phone :</label>
+                <input type="number" name="phone" required placeholder="Enter Your Phone" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="phone">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="semester">Semester :</label>
+                <input type="text" name="semester" required placeholder="Enter Your Semester" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="semester">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="shift">Shift :</label>
+                <input type="text" name="shift" required placeholder="Enter Your Shift" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="shift">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="deparment">Deparment :</label>
+                <input type="text" name="deparment" required placeholder="Enter Your Deparment" class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600" id="deparment">
+            </div>
+            <div class="mb-2">
+                <label class="text-gray-600" for="details">Details :</label>
+                <textarea name="details" id="details" cols="30" rows="4" required class="px-2 py-2 w-full rounded-md focus:outline-none border-2 border-gray-400 text-gray-600"></textarea>
+            </div>
+            <div class="my-2">
+                <button class="px-3 py-2 focus:outline-none bg-green-500 text-white hover:bg-green-600">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
